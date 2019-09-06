@@ -1,0 +1,94 @@
+html {
+   background: #777777;
+}
+body {
+    background: #777777;
+}
+.navbar-brand {
+    background: #4aab;
+    width: 175px;
+    text-align: center;
+    margin-left: 50px;
+}
+.nav {
+    /* margin-left: 100px; */
+    /* float: right; */
+}
+.aboutme {
+    width:500px;
+    height: 550px;
+    border: black;
+    margin-left: 50px;
+    background: #ffffff;
+    margin-top: 20px;
+}
+.gallery {
+    float: left;
+}
+.picture {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content {
+    text-align: center;
+    margin-top: 150px;
+    background: #ffffff;
+    height: 20px;
+    
+}
+header {
+    background: #ffffff;
+}
+.Portfolio-img {
+    width: 550px;
+    margin-left: 60px;
+    float: left;
+    space: 30px;
+}
+.main-container {
+    width: 600px;
+    height: 600px;
+    background: #ffffff;
+}
+.card {
+    float: right;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+
+
+}
+.card-img-top {
+    float:left;
+    margin-bottom: 5px;
+}
+
+p1 {
+    background: #4aab;
+    text-align: center;
+    margin: -2px;
+}
+
+form {
+    width: 500px;
+    height: 450px;
+    margin-left: 60px;
+    background: #ffffff;
+}
+h1 {
+    margin-left: 65px;
+}
+
+#nameinput.name {
+    width: 500px;
+    
+}
+#messagesinput {
+    width: 500px;
+}
+
