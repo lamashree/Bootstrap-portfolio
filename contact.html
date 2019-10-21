@@ -31,22 +31,34 @@
 <body>
   <hr>
   <form>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Name:</label>
-      <input type="email" class="name" id="nameinput">
-    </div>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address:</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-        placeholder="Enter email">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlSelect2">Messages:</label>
-      <select multiple class="messages" id="messagesinput">
-      </select>
-    </div>
-    <div class="col-auto my-1">
-      <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="container-contact">
+      <div class="row">
+        <div class="col-md">
+          <div class="form-group">
+            <div class="col-md-4">
+              <label for="exampleFormControlInput1">Name:</label>
+              <input type="email" class="form-control-contact" id="nameinput">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-4">
+              <label for="exampleInputEmail1">Email address:</label>
+              <input type="email" class="form-control-contact" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-4">
+              <label for="exampleFormControlSelect2">Messages:</label>
+              <select multiple id="messages" class="form-control-contact" width="200px">
+              </select>
+            </div>
+          </div>
+          <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
     </div>
   </form>
 </body>

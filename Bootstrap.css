@@ -1,58 +1,71 @@
-html {
-   background: #777777;
+html, body {
+    height: 100%;
+    margin: 0;
 }
+
+html {
+    background: #777777;
+}
+
 body {
     background: #777777;
 }
+
 .navbar-brand {
     background: #4aab;
     width: 175px;
     text-align: center;
     margin-left: 50px;
 }
+
 .nav {
     /* margin-left: 100px; */
     /* float: right; */
 }
+
 .aboutme {
-    width:500px;
+    hyphens: auto;
+    /* width:600px;
     height: 440px;
     border: black;
     margin-left: 50px;
-    background: #ffffff;
-    margin-top: 20px;
+    background: #ffffff; */
+    /* margin-top: 20px; */
 }
+
 .gallery {
     float: left;
 }
+
 .picture {
+    width: 100%;
     float: left;
     margin-right: 20px;
     margin-top: 20px;
 }
+
 .content {
     text-align: center;
     margin-top: 150px;
     background: #ffffff;
     height: 20px;
-    
 }
+
 header {
     background: #ffffff;
 }
+
 .Portfolio-img {
-    width: 550px;
-    margin-left: 60px;
     float: left;
     space: 30px;
 }
+
 .main-container {
-    width: 600px;
-    height: 640px;
     background: #ffffff;
     margin-left: 62px;
     margin-top: 20px;
 }
+
 .card {
     float: right;
     width: 200px;
@@ -61,47 +74,103 @@ header {
     float: left;
     margin-left: 30px;
     margin-bottom: 40px;
-    
-
-
 }
+
 .card-img-top {
-    float:left;
+    float: left;
     margin-bottom: 5px;
+    height: 225px;
+    width:225px
+
 }
 
 p1 {
     background: #4aab;
     text-align: center;
-    margin: -2px;
-    
+    margin: -4px;
+    width: 230px;
 }
 
 form {
-    width: 550px;
-    height: 450px;
+    height: auto;
     margin-left: 60px;
     background: #ffffff;
+    width: auto;
 }
+
 h1 {
     margin-left: 65px;
 }
 
-#nameinput.name {
-    width: 500px;
-    
+#messages {
+    width: 200px;
 }
-#messagesinput {
-    width: 500px;
-}
-#exampleInputEmail {
-    width: 500px;
-}
+
 .form-control {
-    width: 500px;
+    /* width: 500px; */
+    width: auto;
+}
+
+.col-md-4{
+    width: auto; 
 }
 .content {
-    margin-bottom:  0;
+    margin-bottom: 0;
     position: relative;
     height: 20px;
+}
+
+.row.no-gutters {
+    width: 590px;
+    height: auto;
+}
+
+.card-footer.bg-transparent.border-success {
+    margin-top: 160px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.container {
+    background: #777777;
+}
+
+.col {
+    background: #ffffff;
+    height: auto;
+    border: black;
+    margin-left: 50px;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.main-container {
+    height: auto;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
+
+.content-inside {
+    color: coral;
+}
+
+.Row-img {
+    float: left;
+    margin:15px;
+}
+.container-contact {
+    height: 485px;
+    margin-right: 5px;
 }
